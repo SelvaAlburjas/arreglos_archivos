@@ -5,7 +5,7 @@ Ejemplos:
 ○ nota_mas_alta(data[0]) => 9.
 ○ nota_mas_alta(data[1]) => 8.
 =end
-i=0
+
 arreglo = ARGV[0].to_i
 data = open('notas.data').readlines
 def nota_mas_alta(data,lines)
